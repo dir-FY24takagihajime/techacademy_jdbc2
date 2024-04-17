@@ -10,7 +10,7 @@ public class DbConnectSample01 {
 
     public static void main(String[] args) {
         
-     // データベース接続と結果取得のための変数（インスタンス）,conオブジェクト
+     // データベース接続と結果取得のための変数
         Connection con = null;
         Statement stmt = null;
         ResultSet rs = null;
@@ -41,7 +41,6 @@ public class DbConnectSample01 {
                 // 取得した値を表示
                 System.out.println(name);
                 System.out.println(population);
-                
             }
             
          // 6-1. データの更新を行う
